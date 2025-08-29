@@ -1,0 +1,104 @@
+.body{
+    font-family:serif sans-serif
+}
+.div0{
+width: 100%;
+height: 220%;
+display: flex;
+justify-content: center;
+zoom: 500%;
+}
+.imgtop{
+    
+    width: 100%;
+    height: auto;
+}
+.textos{
+    
+    width: 360px;
+    height: 100vh;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.textocinza{
+    color: #57534e;
+}
+.textolaranja{
+    color: #e33812;
+}
+.resp{
+    cursor: pointer;   
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    border-color: #e6e6e6;
+}
+.resp:hover{
+    box-shadow: #f56733;
+    transition-duration: 0s;
+    border-color: #f56733;
+}
+
+.turnos{
+    height: 7%;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    gap: 5%;
+    
+
+}
+.caixa{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 5px;
+    border: 3px;
+    border-width:1px;
+    border-style: solid;
+    border-color: black;
+    width: 50%;
+    height: 70%;
+}
+.imgop{
+    
+    border-radius: 10px;
+    gap: 10%;
+    width: 60%;
+    height: 50%;
+    right: 40%;
+   
+}
+.tex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30%;
+}
+.turno{
+    accent-color: #e33812;
+}
+.termocond{
+    accent-color: #e33812;
+}
+.btfinal1{
+    color: #e33812;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border-color: #e33812;
+     width: 100%;
+    height: 60px;
+    left: 50%;
+    cursor: pointer;   
+    
+}
+.btfinal2{
+    border-color: #e33812;
+    background-color: #e33812;
+    color: #ffffff;
+    border-radius: 8px;
+    position: relative;
+    width: 100%;
+    height: 60px;
+    cursor: pointer;   
+}
